@@ -80,6 +80,15 @@ body{
     display: block;
     width: 30px;
 }
+.nav__logo{
+    display: flex;
+    align-items: center;
+}
+.nav__logo__svg{
+    width: 15%;
+    min-width: 100px;
+    padding-top: 10px;
+}
 
 .nav__close{
     display: var(--show,none);
@@ -93,13 +102,18 @@ body{
     --padding-container:0;
     grid-auto-rows: max-content;
     align-content: center;
-    gap:1em;
+    gap:0.1em;
     padding-bottom: 100px;
     text-align: center;
+}
+.hero__logo{
+    width: 40%;
+    margin: 0 auto;
 }
 .hero__title{
     font-size: 3rem;
     color: white;
+    margin:0.5em 0px 0.1em 0px;
 }
 
 .hero__paragraph{
@@ -216,14 +230,18 @@ body{
 
 /* Pirce */
 .subtitle__product{
-    color: #1d0101;
+    color: #ffffff;
     font-size: 2rem;
-    margin-bottom: 25 px;
+    margin-bottom: 35px;
 }
 
 .price{
     text-align: center;
-    
+    background-image: #1b1815;
+    opacity: 0.9;
+    background-image:  radial-gradient(#c2bdb1 0.2px, transparent 0.2px), radial-gradient(#c2bdb1 0.2px, #1b1815 0.2px);
+    background-size: 8px 8px;
+    background-position: 0 0,4px 4px;
 }
 .price__table{
     padding-top: 0px;
@@ -234,7 +252,7 @@ body{
     align-items: center;
 }
 .price__element{
-    background-color: #e6d9c0;
+    background-color: #ffffff;
     text-align: center;
     border-radius: 10px;
     width: 330px;
