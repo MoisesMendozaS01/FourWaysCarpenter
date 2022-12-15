@@ -252,7 +252,7 @@ body{
     align-items: center;
 }
 .price__element{
-    background-color: #ffffff;
+    background-color: #c7c7c7;
     text-align: center;
     border-radius: 10px;
     width: 330px;
@@ -274,7 +274,7 @@ body{
     color: var(--color-price);
 }
 
-.product__item{
+.product__items{
     margin-top: 35px;
     display: grid;
     gap:1 em;
@@ -282,4 +282,14 @@ body{
     font-size: 1.2 rem;
     margin-bottom: 50 px;
     color: var(--color-items);
+}
+
+.product__cta{
+    display: block;
+    padding: 20px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--bg-cta);
+    font-weight: 600;
+    box-shadow: 0 0 1px rgb(0, 0, 0, 0.5);
 }
