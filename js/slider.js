@@ -14,7 +14,13 @@
     });
 
     const changePosition = (add) =>{
-        console.log(add)
+        const currentTestimony = document.querySelector('.testimony__body--show').dataset.id;
+        value = Number(currentTestimony);
+        value+= add;
+
+        if(value === sliders.length+1 || value === 0){
+            
+        }
     }
 
 })();
