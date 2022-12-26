@@ -183,7 +183,16 @@ body{
     background-position: 0 0,4px 4px;
     overflow: hidden;
 }
-
+.slider__knowledge{
+    display: flex;
+    overflow-x: scroll;
+    padding: 24px;
+    width: 90%;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius:  8px;
+    gap: 12px;
+}
 .knowledge__container{
     display: grid;
     grid-template-columns: 1fr 1.2fr;
