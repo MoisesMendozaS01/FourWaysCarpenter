@@ -251,7 +251,7 @@ body{
     width: 100%;
 }
 .price__table{
-    padding-top: 0px;
+    padding-top: 6 0px;
     display: flex;
     flex-wrap: wrap;
     gap: 2.5em;
@@ -262,7 +262,7 @@ body{
     background-color: #e5e5f7;
     text-align: center;
     border-radius: 10px;
-    width: 250px;
+    width: 330px;
     padding: 40px;
     --color-plan:#030016;
     --color-price:#1d293f;
@@ -271,7 +271,7 @@ body{
     --color-items:#696871;
 }
 .price__element--two{
-    width: 280px;
+    width: 370px;
     padding: 60px 40px;
     background-color: #5252d4;
     --color-plan:rgb(255 255 255 / 75%);
@@ -294,10 +294,10 @@ body{
 .product__items{
     margin-top: 35px;
     display: grid;
-    gap:1 em;
+    gap:1em;
     font-weight: 700;
     font-size: 1.2 rem;
-    margin-bottom: 50 px;
+    margin-bottom: 50px;
     color: var(--color-items);
 }
 
@@ -600,6 +600,9 @@ body{
     }
 }
 @media (max-width:600px){
+    .hero__logo{
+        width: 60%;
+    }
     .hero__title{
         font-size: 2rem;
     }
