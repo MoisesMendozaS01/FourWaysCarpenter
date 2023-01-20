@@ -574,6 +574,7 @@ body{
         grid-template-rows: max-content max-content;
         gap: 3em;
         justify-items: center;
+        /*text-align: center;*/
     }
     .testimony__img{
         width: 200px;
