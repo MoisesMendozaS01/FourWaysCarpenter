@@ -432,7 +432,10 @@ body{
     margin: 0 auto;
     margin-bottom: 30px;
 }
-
+.cta__questions{
+    background-color:#1b1815 ;
+    color:#fff;
+}
 
 /* Footer*/
 .footer{
